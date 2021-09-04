@@ -1,0 +1,1072 @@
+/* font-family: 'Baloo Bhai 2', cursive; */
+
+* {
+    box-sizing: border-box;
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    background-color: #f4f9f4;
+    
+}
+
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.logo {
+    width: 109px;
+    height: 133px;
+    background-color: #a7d7c5;
+    padding: 28px 13px 24px 10px;
+}
+
+.logo img {
+    width: 86px;
+    height: 81px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #e3ede8;
+    /* background-image: url("image/shape_5204 (1).png");
+    filter: opacity(0.12); */
+    line-height: 3em;
+    width: 100%;
+}
+
+.navigation a {
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    margin-right: 95px;
+
+}
+
+.navigation a:hover {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #6c9894;
+    opacity: 0.23;
+}
+
+
+/* ---------slide-presentatioan----------------- */
+
+.slide-presentation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 84px;
+    padding-right: 102px;
+    padding-bottom: 207px;
+}
+
+
+.slide-photo {
+    position: relative;
+    margin-right: 31px;
+}
+
+.presentation_photo {
+    position: absolute;
+    top: 135px;
+    left: 135px;
+}
+
+.slide-info {
+    text-align: center;
+}
+
+.slide-info h2 {
+    font-size: 98px;
+    line-height: 1.2;
+    font-weight: 900;
+    color: #6c9894;
+}
+
+.slide-info p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20.8px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #6c9894;
+}
+
+.slide-info button {
+    font-family: Lato;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.24em;
+    color: #fefefc;
+    width: 172px;
+    height: 29px;
+    background-color: #6c9894;
+    border-radius: 10px;
+    margin-top: 27px;
+}
+
+/* ----------------- slide-classes ------------------------ */
+
+
+.slide-classes {
+    background-color: #6c9894;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 131px 108px 120px 90px;
+    position: relative;
+}
+
+.ornament {
+    position: absolute;
+    right: 0;
+    transform: translateY(-65%);
+    
+}
+
+.slide-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-photo {
+    position: relative;
+}
+
+.card_photo {
+    position: absolute;
+    top: 35px;
+    left: 35px;
+}
+
+.card {
+    max-width: 385px;
+}
+
+.card_advanced {
+    margin-left: 37px;
+    margin-right: 37px;
+}
+
+.slide_heading {
+    max-width: 745px;
+}
+
+.slide_heading h2 {
+    font-size: 74px;
+    line-height: 1.2;
+    font-weight: 900;
+    color: #f4f9f4;
+    text-align: center;
+}
+
+.slide_heading p {
+    font-family: Montserrat;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #f4f9f4;
+    text-align: center;
+    margin-top: 58px;
+    margin-bottom: 15px;
+}
+
+.card-info h2 {
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 900;
+    color: #f4f9f4;
+    text-align: center;
+
+}
+
+.card-info p {
+    font-family: Montserrat;
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #f4f9f4;
+    text-align: center;
+}
+
+/* ----------------- slide-starts ------------------------ */
+
+.slide-starts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f9f4;
+    padding: 104px 75px 208px 131px;
+}
+
+.starts_heading {
+    max-width: 800px;
+}
+
+.starts_heading h2{
+    font-size: 76px;
+    line-height: 1.2;
+    font-weight: 900;
+    color: #6c9894;
+    text-align: center;
+    margin-bottom: 58px;
+}
+
+.starts_heading p {
+    font-family: Montserrat;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #6c9894;
+    text-align: center;
+    margin-bottom: 131px;
+}
+
+.card-circle {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 330px;
+    height: 330px;
+    border: 5px solid #6c9894;
+    border-radius: 50%;
+}
+
+.circle h2 {
+    font-family: Montserrat;
+    font-size: 68px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #6c9894;
+
+}
+
+.circle p {
+    font-family: Montserrat;
+    font-size: 26px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #6c9894;
+    text-align: center;
+}
+
+.circle_bold h2 {
+    font-weight: 900;
+}
+
+.circle_center {
+    margin-left: 113px;
+    margin-right: 113px;
+}
+
+/* ----------------- slide-instructor ------------------------ */
+
+.slide-instructor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6c9894;
+}
+
+.instructor_info {
+    padding-left: 89px;
+    padding-right: 71px;
+
+}
+
+.instructor_info h2 {
+    font-size: 76px;
+    line-height: 1.2;
+    font-weight: 900;
+    color: #f4f9f4;
+}
+
+.instructor_info p {
+    font-family: Montserrat;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #f4f9f4;
+    margin-bottom: 55px;
+}
+
+.instructor_info button {
+    font-size: 25px;
+    line-height: 1.2;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #6c9894;
+    background-color: #f4f9f4;
+    border-radius: 4px;
+    border: none;
+    padding: 26px 96px 22px;
+}
+
+/* ----------------- slide-experience ------------------------ */   
+
+.slide-experience {
+    background-image: url("image/shape_5668.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 110px 43px 73px 79px;
+}
+
+.experience_ornament {
+    position: absolute;
+    top: -100px;
+    left: 935px;
+    z-index: -1;
+}
+
+.experience_info {
+    margin-left: 166px;
+}
+
+.experience_info h2 {
+    font-size: 75px;
+    line-height: 1.2;
+    font-weight: 900;
+    color: #6c9894;
+    margin-bottom: 56px;
+
+}
+
+.experience_info p {
+    font-family: Montserrat;
+    font-size: 29.8px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #6c9894;
+    margin-bottom: 61px;
+
+}
+
+.experience_info button {
+    font-size: 25px;
+    line-height: 1.2;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #f4f9f4;
+    background-color: #6c9894;
+    border-radius: 4px;
+    border: none;
+    padding: 26px 96px 22px;
+}
+
+.slide_experience_photo {
+    width: 100%;
+
+}
+
+/* ----------------- slide-pricing ------------------------ */ 
+
+.slide-pricing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #6c9894;
+    padding: 124px 71px 100px 97px;
+}
+
+.card_rectangle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pricing_info h2 {
+    font-size: 75px;
+    line-height: 1.2;
+    font-weight: 900;
+    color: #f4f9f4;
+    text-align: center;
+    margin-bottom: 42px;
+}
+
+.pricing_info p {
+    width: 740px;
+    font-family: Montserrat;
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #f4f9f4;
+    text-align: center;
+    margin-bottom: 49px;
+}
+
+.rectangle_shape {
+    width: 372px;
+    background-color: #f4f9f4;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 43px 29px 27px 31px;
+}
+
+.rectangle_shape h2, .rectangle_shape h3 {
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 900;
+    color: #6c9894;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.rectangle_shape img {
+    margin-bottom: 50px;
+}
+
+.rectangle_shape p {
+    font-family: Montserrat;
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #6c9894;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.rectangle_shape a {
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 1.2;
+    font-weight: 900;
+    color: #ffffff;
+    width: 322px;
+    height: 65px;
+    background-color: #6c9894;
+    border-radius: 4px;
+    padding-top: 20px;
+    padding-left: 73px;
+}
+
+.shape_newbie, .shape_advance {
+    margin-right: 80px;
+}
+
+
+/* ----------------- slide-trainer ------------------------ */ 
+.slide-trainer {
+    position: relative;
+
+}
+
+.background_photo {
+    position: relative;
+    z-index: 0;
+}
+
+.trainer_info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(2%);
+    margin-top: 75px;
+}
+
+.trainer_photo {
+    position: relative;
+
+}
+
+.trainer_photo_shape {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(12%, 13%);
+}
+
+.trainer_info p {
+    font-family: Montserrat;
+    font-size: 58.4px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #6c9894;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.trainer_info span {
+    font-size: 58.4px;
+    line-height: 1.2;
+    font-weight: 900;
+    color: #6c9894;
+    text-align: center;
+    margin-top: 60px;
+}
+
+/* ----------------- slide-update ------------------------ */ 
+
+
+.slide-update {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #6c9894;
+    padding-top: 141px;
+    padding-bottom: 217px;
+    
+}
+
+.slide-update h2 {
+    font-size: 75px;
+    line-height: 1.2;
+    font-weight: 900;
+    color: #f4f9f4;
+    text-align: center;
+    margin-bottom: 58px;
+}
+
+.slide-update p {
+    width: 700px;
+    font-family: Montserrat;
+    font-size: 29.8px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #f4f9f4;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email {
+    width: 600px;
+    border-radius: 30px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    vertical-align: middle;
+    border: none;
+}
+
+.email::placeholder {
+    opacity: 0.5;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    color: #6c9894;
+    line-height: 1.5;
+    transform: translate(20px, 5px);
+   
+} 
+
+.update_subscribe_button {
+    width: 222px;
+    background-color: #f4f9f4;
+    border-radius: 30px;
+    font-family: 'Baloo Bhai';
+    font-size: 25px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #6c9894;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    transform: translateX(-25%);
+    border: none;
+}
+
+/* ----------------- slide-footer ------------------------ */ 
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 157px 74px 130px 58px;
+}
+
+footer h2 {
+    font-size: 33.4px;
+    line-height: 1.2;
+    font-weight: 900;
+    color: #6c9894;
+}
+
+footer p {
+    font-family: Montserrat;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #6c9894;
+}
+
+.slide_navigation {
+    display: flex;
+    flex-direction: column;
+}    
+
+.title {
+    width: 480px;
+}
+
+nav a {
+    font-family: Montserrat;
+    font-size: 25px;
+    line-height: 44px;
+    font-weight: 400;
+    color: #6c9894;
+    text-decoration: none;
+}    
+
+.icon {
+    transform: translateY(30%);
+}
+
+
+.slide_navigation a:hover {
+    background-color: #6c9894;
+    border: 2px solid #6c9894;
+    color: #f4f9f4;
+}
+
+
+
+
+
+
+/* ----------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------- */
+
+@media (min-width: 720px) and (max-width: 5000px) {
+    .burger {
+        display: none;
+    }
+}
+
+
+/* ----------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------- */
+
+
+@media (max-width: 1080px) {
+    .navigation {
+        display: flex;
+        justify-content: center;
+        background-color: #e3ede8;
+        line-height: 3em;
+        width: 100%;
+    }
+
+    .navigation a {
+        margin-right: 20px;
+    }
+
+  /* ------------------slide-presentatioan-----------------   */
+
+    .slide-presentation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .slide-photo {
+        max-width: 320px;
+        max-height: 320px;
+    
+    }
+
+    .presentation_ornament {
+        width: 320px;
+        height: 320px;
+        z-index: 1;
+    }
+
+    .presentation_photo {
+        position: relative;
+        top: -269px;
+        left: 60px;
+        width: 200px;
+        height: 200px;
+        z-index: 2;
+    }
+
+    .slide-info h2 {
+        font-size: 68px;
+        line-height: 1.2;
+        font-weight: 700;
+        color: #6c9894;
+    }
+
+    .slide-info p {
+        font-size: 16px;
+    }
+
+    /* -------------------slide-classes--------------------- */
+
+    
+    .ornament {
+        display: none;
+    }
+
+    .slide-classes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px;
+    }
+
+    .slide_heading {
+        margin: auto;
+    }
+
+    .slide-card {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .card {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 40px;
+        margin-right: 40px;
+
+    }
+
+  
+/* ----------------- slide-starts ------------------------ */
+
+    .slide-starts {
+        display: block;
+        padding: 50px;
+    }
+
+    .card-circle {
+        display: block;
+    }
+
+    .circle {
+        width: 200px;
+        height: 200px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 50px;
+    }
+
+    .circle h2 {
+        font-size: 48px;
+    }
+    
+    .circle p {
+        font-size: 16px;
+    }
+
+    .starts_heading p {
+        margin-bottom: 40px;
+    }
+
+/* ----------------- slide-instructor ------------------------ */
+
+    .slide-instructor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 40px;
+    }
+
+    .instructor_info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .instructor_info h2 {
+        font-size: 48px;
+        line-height: 1.0;
+        text-align: center;
+    }
+    
+    .instructor_info p {
+        font-size: 14px;
+        line-height: 1.0;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .instructor_info button {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .instructor_photo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .instructor_photo img {
+        width: 70vw;
+        margin-bottom: 20px;
+    }
+
+/* ----------------- slide-experience ------------------------ */   
+
+    .slide-experience {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-image: none;
+        padding: 0;
+        padding-top: 40px;
+    } 
+    
+    .slide_experience_photo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .slide_experience_photo img {
+        width: 70vw;
+    }
+
+    .experience_info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .experience_info h2 {
+        font-size: 48px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .experience_info p {
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .experience_info button {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+/* ----------------- slide-pricing ------------------------ */     
+
+    .slide-pricing {
+        padding: 0;
+    }
+
+    .card_rectangle {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .rectangle_shape {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .pricing_info h2 {
+        margin-bottom: 20px;
+    }
+
+    .pricing_info p {
+        width: 70vw;
+    }
+
+/* ----------------- slide-trainer ------------------------ */
+
+    .slide-trainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+     
+    .background_photo {
+        display: none;
+    }
+    
+
+    .trainer_info {
+        position: static;
+    }
+
+    .trainer_info p {
+        width: 70vw;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .trainer_info span {
+        font-size: 26px;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+/* ----------------- slide-update ------------------------ */
+   
+    .slide-update h2 {
+        font-size: 40px;
+        width: 70vw;
+    }
+
+    .slide-update p {
+        font-size: 20px;
+        width: 70vw;
+    }
+
+    .email {
+        width: 50vw;
+    }
+
+    .update_subscribe_button {
+        width: 30vw;
+        font-size: 14px;
+        line-height: 2.0;
+        transform: translateX(-40%);
+    }
+
+/* ----------------- footer ------------------------ */    
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+
+    }
+
+    .title {
+        width: 70vw;
+        margin-bottom: 20px;
+    }
+
+    .title h2, .title p {
+        text-align: center;
+    }
+
+    .about, .services, .follow {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+
+}
+
+
+
+    
+/* ----------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------- */
+
+@media (min-width: 320px) and (max-width: 720px) {
+    .navigation {
+        display: none;
+    }
+
+    .burger {
+        width: 40px;
+        height: 4s5px;
+        color: #6c9894;
+        margin-right: 110px;
+    }
+
+    .slide {
+        display: block;
+    }
+
+    .presentation_ornament {
+        max-width: 320px;
+        max-height: 320px;
+        z-index: 1;
+    }
+
+    .slide-photo {
+        text-align: center;
+        margin: auto;
+    }
+    
+    .presentation_photo {
+        position: relative;
+        top: -269px;
+        left: 0;
+        max-width: 200px;
+        max-height: 200px;
+        z-index: 2;
+    }
+
+/* -------------------slide-classes--------------------- */
+    .ornament {
+        display: none;
+    }
+
+    .slide-classes {
+        padding: 0px;
+    }
+
+    .slide-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+}
+
+
+
